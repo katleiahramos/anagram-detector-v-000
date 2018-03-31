@@ -11,7 +11,9 @@ class Anagram
 
 
   def self.match(words)
-
+    binding.pry
+    words.each do |word|
+      word.split("").sort
   end
 
 
