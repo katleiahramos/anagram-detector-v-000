@@ -17,7 +17,7 @@ class Anagram
     anagrams = []
     words.each do |word|
       if word.split("").sort == @word.split("").sort
-        binding.pry
+        #binding.pry
         anagrams << word
       end
     end
