@@ -16,7 +16,7 @@ class Anagram
   def match(words)
    #  binding.pry
     words.each do |word|
-      if word.split("").sort == self.word.split("").sort
+      if word.split("").sort == @word.split("").sort
         @@anagrams << word
       end
     end
