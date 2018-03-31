@@ -14,9 +14,10 @@ class Anagram
 
 
   def match(words)
-   binding.pry
+
     words.each do |word|
       if word.split("").sort == @word.split("").sort
+        binding.pry
         @@anagrams << word
       end
     end
