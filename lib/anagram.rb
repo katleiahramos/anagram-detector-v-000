@@ -17,12 +17,8 @@ class Anagram
     binding.pry
     words.each do |word|
       word.split("").sort
+    end 
   end
-
-
-
-
-
 
 
 
