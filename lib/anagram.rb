@@ -6,7 +6,7 @@ class Anagram
 
   attr_accessor :word
 
-  @@anagrams = []
+
 
   def initialize(word)
     @word = word
@@ -14,14 +14,14 @@ class Anagram
 
 
   def match(words)
-
+    anagrams = []
     words.each do |word|
       if word.split("").sort == @word.split("").sort
         binding.pry
-        @@anagrams << word
+        anagrams << word
       end
     end
-    @@anagrams
+    anagrams
   end
 
 
