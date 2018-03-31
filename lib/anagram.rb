@@ -10,9 +10,9 @@ class Anagram
   end
 
 
-  #def self.match(words)
+  def self.match(words)
 
-  #end
+  end
 
 
 
